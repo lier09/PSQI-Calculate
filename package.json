@@ -1,12 +1,21 @@
 {
-  "name": "psqi-score-calculator-netlify",
+  "name": "psqi-score-calculator",
   "version": "1.0.0",
-  "description": "A web application to calculate PSQI scores from an Excel file, with data visualization and sorting. Packaged for Netlify deployment.",
-  "main": "public/index.html",
+  "private": true,
   "scripts": {
-    "start": "echo \"This is a static project. Open public/index.html in a browser.\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "author": "",
-  "license": "MIT"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
 }
