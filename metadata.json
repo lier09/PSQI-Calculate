@@ -1,0 +1,5 @@
+{
+  "name": "PSQI Score Calculator from Excel",
+  "description": "An application that parses PSQI questionnaire data from an uploaded Excel file, displays the data, and then calculates the PSQI component and total scores.",
+  "requestFramePermissions": []
+}

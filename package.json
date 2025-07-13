@@ -1,0 +1,12 @@
+{
+  "name": "psqi-score-calculator-netlify",
+  "version": "1.0.0",
+  "description": "A web application to calculate PSQI scores from an Excel file, with data visualization and sorting. Packaged for Netlify deployment.",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "echo \"This is a static project. Open public/index.html in a browser.\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
